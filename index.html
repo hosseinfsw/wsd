@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ورود | ثبت نام</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <div class="container">
+        <div class="form-box login">
+            <form action="#">
+                <h1>ورود به حساب کاربری</h1>
+                <div class="input-box">
+                    <input type="text" placeholder="نام کاربری خود را وارد کنید" required>
+                    <i class='bx bxs-user'></i>
+                </div>
+                <div class="input-box">
+                    <input type="password" placeholder="رمز عبور خود را وارد کنید" required>
+                    <i class='bx bxs-lock-alt'></i>
+                </div>
+                <div class="forgot-link">
+                    <a href="#"><span>رمز عبور را فراموش کرده‌اید؟</span></a>
+                </div>
+                <button type="submit" class="btn">ورود</button>
+                <p>یا از طریق شبکه‌های اجتماعی وارد شوید</p>
+                <div class="social-icons">
+                    <a href="#"><i class='bx bxl-google'></i></a>
+                    <a href="#"><i class='bx bxl-facebook'></i></a>
+                    <a href="#"><i class='bx bxl-github'></i></a>
+                    <a href="#"><i class='bx bxl-linkedin'></i></a>
+                </div>
+            </form>
+        </div>
+
+        <div class="form-box register">
+            <form action="#">
+                <h1>ایجاد حساب کاربری</h1>
+                <div class="input-box">
+                    <input type="text" placeholder="نام کاربری دلخواه شما" required>
+                    <i class='bx bxs-user'></i>
+                </div>
+                <div class="input-box">
+                    <input type="email" placeholder="ایمیل خود را وارد کنید" required>
+                    <i class='bx bxs-envelope'></i>
+                </div>
+                <div class="input-box">
+                    <input type="password" placeholder="یک رمز عبور قوی انتخاب کنید" required>
+                    <i class='bx bxs-lock-alt'></i>
+                </div>
+                <button type="submit" class="btn">ثبت نام</button>
+                <p>یا از طریق حساب‌های اجتماعی ثبت‌نام کنید</p>
+                <div class="social-icons">
+                    <a href="#"><i class='bx bxl-google'></i></a>
+                    <a href="#"><i class='bx bxl-facebook'></i></a>
+                    <a href="#"><i class='bx bxl-github'></i></a>
+                    <a href="#"><i class='bx bxl-linkedin'></i></a>
+                </div>
+            </form>
+        </div>
+
+        <div class="toggle-box">
+            <div class="toggle-panel toggle-left">
+                <h1>خوش آمدید!</h1>
+                <p>اگر هنوز حساب کاربری ندارید، همین حالا ثبت نام کنید.</p>
+                <button class="btn register-btn">ثبت نام</button>
+            </div>
+
+            <div class="toggle-panel toggle-right">
+                <h1>به دنیای ما بپیوندید</h1>
+                <p>قبلاً ثبت نام کرده‌اید؟ وارد حساب خود شوید.</p>
+                <button class="btn login-btn">ورود</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
